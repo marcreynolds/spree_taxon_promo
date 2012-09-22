@@ -8,3 +8,4 @@ en:
       name: Item total from taxon
       description: Order total from specific taxon exceeds amount
   flat_percent_taxon: Flat percent of taxon total
+  bundle_price: Set a price for a bundle (quantity) of the same item or taxon of items.

@@ -9,6 +9,7 @@ module Spree
     OPERATORS = ['gt', 'gte']
 
     def eligible?(order, options = {})
+      # debugger
       item_total = 0.0
       order.line_items.each do |line_item|
         item_total += line_item.amount if line_item.product.taxons.where(:name => preferred_taxon).present?
